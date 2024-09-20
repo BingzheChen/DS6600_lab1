@@ -7,6 +7,15 @@ I choose the *GNU General Public License v3.0* because it allows other people to
 Had I not supplied a license, the code would be copyrighted by default, meaning others would have very limited rights to use, modify, or distribute it. Without an explicit license, people would generally be unable to legally use the code in their own projects, whether for personal, open-source, or commercial purposes. This could limit collaboration and the code's potential impact.
 
 ## examine my .gitignore file
-```{python}
-
+The relevant section making sure that a file named ".env" will not be pushed to GitHub:
+```python
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 ```
+
